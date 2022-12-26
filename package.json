@@ -6,10 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build": "tsc && vite build", 
+    "deploy": "gh-pages --dist dist"
   },
   "dependencies": {
     "html-to-pdfmake": "^2.4.11",
