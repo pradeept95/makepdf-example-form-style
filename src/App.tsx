@@ -28,9 +28,6 @@ import {
 
 const testHTML = `<h3>Value in H3 Html Tag</h3><p>first paragraph with <i>Italics</i> <b>Bold<b> and more</p><p>second paragraph</p><p>third paragraph</p>`;
 
-formStyles.SUB_HEADER_FILL_COLOR = "red";
-formStyles.SUB_HEADER_COLOR = "balck"; 
-
 const pdfStyle = {  
   // use the default form element style
   ...formStyles,
@@ -197,6 +194,11 @@ function App() {
       </svg>
       Export Pdf (LANDSCAPE)
     </button>
+
+    <div>
+      <a  href="https://github.com/pradeept95/pdfmake-form-elements/blob/main/README.md" target="_blank">View Documentation</a>
+      <a href="https://github.com/pradeept95/makepdf-example-form-style" target="_blank">View Code Example Repository</a>
+    </div>
   </div>
   );
 }
