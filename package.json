@@ -1,17 +1,15 @@
 {
-  "homepage": "https://pradeept95.github.io/makepdf-example-form-style",
   "name": "reactpdfexport",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build", 
-    "deploy": "gh-pages --dist dist"
+    "build": "tsc && vite build"
   },
   "dependencies": {
-    "html-to-pdfmake": "^2.4.11",
     "pdfmake": "^0.2.7",
+    "pdfmake-form-elements": "^0.0.1-rc-6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
